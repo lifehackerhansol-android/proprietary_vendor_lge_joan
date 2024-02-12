@@ -20,31 +20,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/fm_helium.so \
     vendor/lge/joan/proprietary/system_ext/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libfm-hci.so \
-    vendor/lge/joan/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
-    vendor/lge/joan/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
-    vendor/lge/joan/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
-    vendor/lge/joan/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
-    vendor/lge/joan/proprietary/vendor/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so \
     vendor/lge/joan/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/lge/joan/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/lge/joan/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/fm_helium.so \
     vendor/lge/joan/proprietary/system_ext/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfm-hci.so \
-    vendor/lge/joan/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
-    vendor/lge/joan/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
-    vendor/lge/joan/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
-    vendor/lge/joan/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
+    vendor/lge/joan/proprietary/vendor/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so \
     vendor/lge/joan/proprietary/system_ext/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
-    vendor/lge/joan/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/lge/joan/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/lge/joan/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
     vendor/lge/joan/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
-    vendor/lge/joan/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/lge/joan/proprietary/vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service \
-    vendor/lge/joan/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
-    vendor/lge/joan/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
     vendor/lge/joan/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/lge/joan/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/lge/joan/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
@@ -64,9 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/etc/camera/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data1.bin \
     vendor/lge/joan/proprietary/vendor/etc/camera/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data2.bin \
     vendor/lge/joan/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/lge/joan/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/lge/joan/proprietary/vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.1-service.rc \
-    vendor/lge/joan/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/lge/joan/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/lge/joan/proprietary/vendor/etc/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
     vendor/lge/joan/proprietary/vendor/etc/perf/perf-profile1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile1.conf \
@@ -278,7 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib/libchromatix_s5k3m3_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3_zsl_video_3a.so \
     vendor/lge/joan/proprietary/vendor/lib/libcinemaeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcinemaeffect.so \
     vendor/lge/joan/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
-    vendor/lge/joan/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
     vendor/lge/joan/proprietary/vendor/lib/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation.so \
     vendor/lge/joan/proprietary/vendor/lib/libfilm_emulation_symphony.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation_symphony.so \
     vendor/lge/joan/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
@@ -380,7 +364,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib/liblgmda.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgmda.so \
     vendor/lge/joan/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/lge/joan/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
-    vendor/lge/joan/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/lge/joan/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/lge/joan/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/lge/joan/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
@@ -579,7 +562,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
     vendor/lge/joan/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/lge/joan/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
-    vendor/lge/joan/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
     vendor/lge/joan/proprietary/vendor/lib64/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-calwrapper.so \
     vendor/lge/joan/proprietary/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
     vendor/lge/joan/proprietary/vendor/lib64/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-osal.so \
@@ -589,7 +571,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib64/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp2p2prov.so \
     vendor/lge/joan/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/lge/joan/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
-    vendor/lge/joan/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
     vendor/lge/joan/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/lge/joan/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
     vendor/lge/joan/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
@@ -664,9 +645,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/system_ext/lib/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdpmtcm.so \
     vendor/lge/joan/proprietary/system_ext/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmosal.so \
     vendor/lge/joan/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
+    vendor/lge/joan/proprietary/system_ext/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.0.so \
+    vendor/lge/joan/proprietary/system_ext/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.1.so \
+    vendor/lge/joan/proprietary/system_ext/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.2.so \
     vendor/lge/joan/proprietary/system_ext/lib/vendor.lge.hardware.vss_ims@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.lge.hardware.vss_ims@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.diaghal@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.latency@1.0.so \
+    vendor/lge/joan/proprietary/system_ext/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qseecom@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.1.so \
@@ -694,9 +679,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/system_ext/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmtcm.so \
     vendor/lge/joan/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
     vendor/lge/joan/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
+    vendor/lge/joan/proprietary/system_ext/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.0.so \
+    vendor/lge/joan/proprietary/system_ext/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.1.so \
+    vendor/lge/joan/proprietary/system_ext/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.2.so \
     vendor/lge/joan/proprietary/system_ext/lib64/vendor.lge.hardware.vss_ims@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.lge.hardware.vss_ims@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.latency@1.0.so \
+    vendor/lge/joan/proprietary/system_ext/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qseecom@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
     vendor/lge/joan/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.1.so \
@@ -723,6 +712,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/lge/joan/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-qti \
     vendor/lge/joan/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
+    vendor/lge/joan/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/lge/joan/proprietary/vendor/bin/hw/vendor.lge.hardware.vss_ims@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.vss_ims@1.0-service \
     vendor/lge/joan/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.1-service \
     vendor/lge/joan/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
@@ -806,6 +796,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/etc/init/ipacm-diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm-diag.rc \
     vendor/lge/joan/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/lge/joan/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
+    vendor/lge/joan/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/lge/joan/proprietary/vendor/etc/init/vendor.lge.hardware.vss_ims@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.vss_ims@1.0-service.rc \
     vendor/lge/joan/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/lge/joan/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
@@ -873,6 +864,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
     vendor/lge/joan/proprietary/vendor/lib/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdataitems.so \
     vendor/lge/joan/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
+    vendor/lge/joan/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
     vendor/lge/joan/proprietary/vendor/lib/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayconfig.qti.so \
     vendor/lge/joan/proprietary/vendor/lib/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmqmihal.so \
     vendor/lge/joan/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
@@ -908,6 +900,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket.so \
     vendor/lge/joan/proprietary/vendor/lib/libmiracast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiracast.so \
     vendor/lge/joan/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
+    vendor/lge/joan/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/lge/joan/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/lge/joan/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
     vendor/lge/joan/proprietary/vendor/lib/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_common.so \
@@ -985,6 +978,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtibus.so \
     vendor/lge/joan/proprietary/vendor/lib/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtimutex.so \
     vendor/lge/joan/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
+    vendor/lge/joan/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
+    vendor/lge/joan/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
+    vendor/lge/joan/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
+    vendor/lge/joan/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib/vendor.lge.hardware.lite_radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lite_radio@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib/vendor.lge.hardware.lite_radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lite_radio@1.1.so \
     vendor/lge/joan/proprietary/vendor/lib/vendor.lge.hardware.lite_radio@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lite_radio@1.2.so \
@@ -1010,6 +1007,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/lge/joan/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qseecom@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am@1.0.so \
@@ -1109,6 +1107,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
     vendor/lge/joan/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/lge/joan/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
+    vendor/lge/joan/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
     vendor/lge/joan/proprietary/vendor/lib64/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.qti.so \
     vendor/lge/joan/proprietary/vendor/lib64/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmqmihal.so \
     vendor/lge/joan/proprietary/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so \
@@ -1147,6 +1146,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib64/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket.so \
     vendor/lge/joan/proprietary/vendor/lib64/libmiracast.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiracast.so \
     vendor/lge/joan/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
+    vendor/lge/joan/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
     vendor/lge/joan/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/lge/joan/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/lge/joan/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
@@ -1230,6 +1230,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
     vendor/lge/joan/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
     vendor/lge/joan/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
+    vendor/lge/joan/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
+    vendor/lge/joan/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
+    vendor/lge/joan/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
+    vendor/lge/joan/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.lge.hardware.lite_radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lite_radio@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.lge.hardware.lite_radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lite_radio@1.1.so \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.lge.hardware.lite_radio@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lite_radio@1.2.so \
@@ -1262,6 +1266,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccsyshal@1.0.so \
+    vendor/lge/joan/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qseecom@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/lge/joan/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0.so \
