@@ -139,12 +139,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "dpm",
-	owner: "lge",
-	jars: ["proprietary/framework/dpm.jar"],
-}
-
-dex_import {
 	name: "com.qti.dpmframework",
 	owner: "lge",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],

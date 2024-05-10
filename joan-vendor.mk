@@ -544,7 +544,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON
 PRODUCT_COPY_FILES += \
-    vendor/lge/joan/proprietary/bin/dpm:$(TARGET_COPY_OUT_SYSTEM)/bin/dpm \
     vendor/lge/joan/proprietary/bin/sigma_miracasthalservice:$(TARGET_COPY_OUT_SYSTEM)/bin/sigma_miracasthalservice \
     vendor/lge/joan/proprietary/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc \
     vendor/lge/joan/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
@@ -1304,7 +1303,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     dpmserviceapp \
     qcrilmsgtunnel \
-    dpm \
     com.qti.dpmframework \
     com.qualcomm.qti.imscmservice-V2.0-java \
     com.qualcomm.qti.imscmservice-V2.1-java \
