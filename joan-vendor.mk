@@ -529,6 +529,11 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON
+
+PRODUCT_PACKAGES += \
+    bdwlan_bdwlan_symlink \
+    bdwlan_ch0_bdwlan_ch0_symlink \
+    bdwlan_ch1_bdwlan_ch1_symlink
 PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/bin/sigma_miracasthalservice:$(TARGET_COPY_OUT_SYSTEM)/bin/sigma_miracasthalservice \
     vendor/lge/joan/proprietary/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc \
